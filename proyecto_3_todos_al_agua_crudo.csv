@@ -1,0 +1,259 @@
+id_participante,edad,actividades,sectores,ganancias_sector,tiene_cud,pension_discapacidad,identidad_sexual,salario,tipo_discapacidad
+3001,69,Rehabilitación,Educación,284458.18,No,True,Masculino,395532.11,Motriz
+3002,74,Rehabilitación,Educación,240025.01,SI,True,M,506908.24,Visceral
+3003,73,Hidrogimnasia,Educación,264487.45,SI,False,No Binario,458339.0,Motriz
+3004,20,Natación,Municipalidad,315260.8,No,False,Masculino,377091.04,Motriz
+3005,64,Natación,Municipalidad,519198.93,Tiene CUD,False,F,225016.98,Ninguna
+3006,58,Hidrogimnasia,Educación,343901.43,Si,True,Masculino,368137.4,Visceral
+3007,16,Natación,Municipalidad,328299.37,no,False,M,593434.59,Sensorial
+3008,58,Natación,Educación,366481.39,Tiene CUD,True,Femenino,550053.75,Motriz
+3009,59,Natación,Independiente,313051.79,Tiene CUD,True,Masculino,446934.66,Ninguna
+3010,71,Aquagym,Educación,182697.31,no,False,Femenino,473111.18,Visceral
+3011,70,Aquagym,Municipalidad,447673.36,SI,True,Femenino,372614.65,Motriz
+3012,48,Rehabilitación,Educación,465659.22,Si,False,No Binario,514061.17,Visceral
+3013,12,Hidrogimnasia,Educación,390943.37,no,True,Femenino,494583.78,Sensorial
+3014,15,Natación,Privado,369870.37,Si,True,Femenino,270025.52,Intelectual
+3015,7,Natación,Municipalidad,530468.9,Si,True,No Binario,354509.98,Ninguna
+3016,49,Rehabilitación,Municipalidad,300545.81,Si,False,F,-150000.0,Motriz
+3017,31,Rehabilitación,Municipalidad,575085.77,No,True,No Binario,482269.54,Visceral
+3018,60,Natación,Educación,327054.05,Si,False,Femenino,578295.76,Visceral
+3019,13,Rehabilitación,,289725.81,no,True,M,488526.23,Intelectual
+3020,52,Aquagym,,334290.23,No,False,Femenino,331560.06,Motriz
+3021,27,Aquagym,,387030.2,No,False,M,526692.34,Intelectual
+3022,66,Natación,,486613.12,Tiene CUD,True,M,523060.14,Visceral
+3023,70,Rehabilitación,,151227.34,Si,False,Femenino,574647.71,Ninguna
+3024,72,Hidrogimnasia,,135484.31,No,True,M,553376.07,Sensorial
+3025,6,Natación,,296714.64,Si,False,No Binario,328983.05,Sensorial
+3026,71,Hidrogimnasia,,276190.14,SI,True,M,520044.64,Intelectual
+3027,34,Hidrogimnasia,,381511.29,Si,False,No Binario,632816.86,Motriz
+3028,20,Aquagym,,310641.01,Tiene CUD,True,M,268298.99,Intelectual
+3029,71,Rehabilitación,,317020.88,Si,False,Masculino,463710.92,Intelectual
+3030,48,Aquagym,Independiente,308730.37,No,True,No Binario,454813.92,Sensorial
+3031,8,Aquagym,Privado,463339.12,No,True,Femenino,325059.81,Sensorial
+3032,38,Natación,Privado,485551.08,Tiene CUD,False,M,392883.0,Ninguna
+3033,15,Aquagym,Independiente,229453.91,Tiene CUD,True,Femenino,505016.35,Intelectual
+3034,57,Rehabilitación,Municipalidad,381885.95,SI,False,Femenino,679703.73,Motriz
+3035,16,Hidrogimnasia,Privado,242497.56,no,False,Masculino,436124.02,Intelectual
+3036,29,Natación,Privado,291064.01,No,False,No Binario,460607.87,Sensorial
+3037,72,Aquagym,Educación,353576.57,no,True,M,389606.71,Sensorial
+3038,59,Hidrogimnasia,Independiente,423073.46,No,True,No Binario,198783.5,Intelectual
+3039,53,Natación,Privado,281525.31,no,True,Masculino,428456.6,Ninguna
+3040,51,Hidrogimnasia,Privado,501926.79,Si,True,Masculino,345903.68,Motriz
+3041,70,Hidrogimnasia,Educación,502613.24,Si,True,Masculino,570722.49,Ninguna
+3042,48,Hidrogimnasia,Independiente,326688.78,no,True,No Binario,250882.86,Motriz
+3043,31,Aquagym,Educación,338289.44,Tiene CUD,True,M,319381.35,Intelectual
+3044,36,Hidrogimnasia,Privado,253184.67,No,True,F,517864.26,Motriz
+3045,16,Rehabilitación,Privado,270290.55,Tiene CUD,False,F,425385.25,Motriz
+3046,69,Hidrogimnasia,Municipalidad,234761.54,No,True,No Binario,481342.57,Visceral
+3047,46,Hidrogimnasia,Independiente,353905.4,no,False,Masculino,525084.63,Motriz
+3048,67,Rehabilitación,Privado,329482.71,no,True,Femenino,365021.6,Ninguna
+3049,19,Rehabilitación,Municipalidad,395429.18,Si,False,Masculino,493785.11,Ninguna
+3050,49,Aquagym,Educación,502189.33,Si,False,F,424578.07,Intelectual
+3051,6,Hidrogimnasia,Privado,298787.17,Si,True,M,373306.77,Visceral
+3052,43,Rehabilitación,Educación,436411.78,SI,True,F,425702.88,Intelectual
+3053,29,Hidrogimnasia,Independiente,319658.42,No,True,Femenino,597657.67,Sensorial
+3054,32,Hidrogimnasia,Educación,185216.38,no,True,M,287073.72,Intelectual
+3055,6,Natación,Municipalidad,464822.56,no,True,M,852870.56,Ninguna
+3056,50,Aquagym,Municipalidad,354305.26,no,False,M,622870.47,Ninguna
+3057,11,Natación,Educación,397402.75,Si,False,No Binario,379325.09,Ninguna
+3058,42,Hidrogimnasia,Privado,484026.54,Tiene CUD,False,No Binario,430925.88,Ninguna
+3059,22,Hidrogimnasia,Independiente,349110.25,SI,True,M,408486.8,Ninguna
+3060,57,Rehabilitación,Independiente,198874.47,No,True,Femenino,474347.34,Sensorial
+3061,14,Natación,Independiente,406372.14,Tiene CUD,False,No Binario,,Sensorial
+3062,23,Natación,Educación,420248.25,Si,False,Femenino,,Intelectual
+3063,59,Natación,Independiente,231484.38,No,True,Femenino,,Ninguna
+3064,12,Rehabilitación,Independiente,276703.3,No,True,M,,Motriz
+3065,37,Natación,Privado,353017.55,SI,True,Femenino,,Sensorial
+3066,8,Aquagym,Municipalidad,562060.79,Tiene CUD,True,F,,Intelectual
+3067,14,Hidrogimnasia,Municipalidad,361774.33,Si,False,Femenino,,Intelectual
+3068,31,Natación,Independiente,339670.67,SI,True,F,,Visceral
+3069,46,Natación,Educación,441894.99,SI,True,F,,Visceral
+3070,44,Natación,Privado,417413.18,Tiene CUD,True,No Binario,,Motriz
+3071,59,Natación,Municipalidad,260331.7,no,False,M,,Intelectual
+3072,33,Rehabilitación,Municipalidad,228393.47,Si,True,F,,Visceral
+3073,28,Rehabilitación,Educación,369457.64,Si,False,Femenino,,Ninguna
+3074,45,Rehabilitación,Municipalidad,402709.01,No,False,Masculino,614678.63,Motriz
+3075,63,Aquagym,Independiente,606005.35,SI,True,F,385506.44,Sensorial
+3076,41,Hidrogimnasia,Municipalidad,321430.38,no,False,Femenino,391062.23,Motriz
+3077,59,Aquagym,Independiente,312950.61,SI,True,M,498315.79,Visceral
+3078,44,Hidrogimnasia,Independiente,311079.53,no,True,Femenino,503217.4,Ninguna
+3079,58,Aquagym,Independiente,238172.76,Si,True,No Binario,421248.31,Ninguna
+3080,6,Hidrogimnasia,Independiente,405225.39,no,False,F,238738.09,Intelectual
+3081,52,Rehabilitación,Privado,252651.86,Tiene CUD,False,F,554943.15,Motriz
+3082,68,Hidrogimnasia,Educación,587006.12,Tiene CUD,True,F,392811.81,Visceral
+3083,66,Hidrogimnasia,Educación,464283.71,no,True,Masculino,770520.96,Motriz
+3084,56,Aquagym,Independiente,235153.45,SI,False,No Binario,305797.22,Sensorial
+3085,5,Natación,Educación,400790.76,Tiene CUD,True,No Binario,509205.35,Sensorial
+3086,39,Hidrogimnasia,Privado,347180.7,Tiene CUD,False,F,431325.25,Intelectual
+3087,71,Hidrogimnasia,Privado,424411.25,SI,True,F,530469.14,Ninguna
+3088,28,Natación,Municipalidad,280160.49,no,True,F,392880.16,Ninguna
+3089,35,Hidrogimnasia,Privado,15000000.0,No,False,No Binario,570180.07,Intelectual
+3090,46,Aquagym,Educación,354908.65,No,True,No Binario,484612.62,Sensorial
+3091,38,Aquagym,Educación,221231.14,SI,False,No Binario,297104.75,Ninguna
+3092,50,Natación,Privado,518820.51,no,False,Masculino,348488.91,Sensorial
+3093,11,Aquagym,Privado,350604.81,No,False,F,360529.49,Sensorial
+3094,47,Hidrogimnasia,Educación,387986.52,Tiene CUD,True,Masculino,503968.39,Ninguna
+3095,60,Aquagym,Educación,395373.77,No,True,Femenino,500578.54,Ninguna
+3096,21,Rehabilitación,Privado,380627.44,no,True,M,526590.6,Motriz
+3097,41,Aquagym,Municipalidad,293164.11,No,True,Femenino,356679.32,Ninguna
+3098,16,Natación,Educación,386552.76,no,True,Masculino,405631.1,Ninguna
+3099,63,Hidrogimnasia,Independiente,419017.05,no,False,M,421200.68,Intelectual
+3100,22,Rehabilitación,Educación,371753.93,SI,True,No Binario,413842.45,Ninguna
+3101,36,Hidrogimnasia,Independiente,393579.82,Tiene CUD,False,No Binario,478526.43,Intelectual
+3102,32,Rehabilitación,Educación,396187.48,SI,False,F,602322.5,Intelectual
+3103,19,Natación,Privado,403268.17,SI,False,Masculino,493882.66,Intelectual
+3104,10,Natación,Educación,466561.77,SI,False,Femenino,636330.36,Sensorial
+3105,39,Rehabilitación,Privado,369935.33,no,False,No Binario,481472.95,Ninguna
+3106,25,Rehabilitación,Educación,337777.87,Si,True,No Binario,287083.19,Intelectual
+3107,31,Rehabilitación,Independiente,312442.77,no,True,M,536378.77,Ninguna
+3108,71,Aquagym,Educación,367054.33,SI,False,F,391730.79,Visceral
+3109,19,Aquagym,Privado,344540.79,no,False,Masculino,258035.56,Intelectual
+3110,21,Rehabilitación,Educación,310324.9,No,True,M,568825.51,Motriz
+3111,25,Aquagym,Municipalidad,200017.42,No,False,M,446757.2,
+3112,65,Aquagym,Privado,264654.69,Tiene CUD,True,No Binario,232463.73,
+3113,65,Rehabilitación,Educación,443013.01,no,False,No Binario,299994.1,
+3114,22,Natación,Privado,432472.25,No,True,No Binario,500858.55,
+3115,42,Hidrogimnasia,Privado,373767.35,Si,True,Masculino,335681.77,
+3116,62,Hidrogimnasia,Educación,417783.7,SI,True,M,534918.05,
+3117,35,Rehabilitación,Municipalidad,511153.0,Tiene CUD,True,Femenino,543867.92,
+3118,30,Natación,Educación,321863.54,Tiene CUD,True,Masculino,428933.83,
+3119,30,Natación,Privado,525261.62,No,False,No Binario,507477.03,
+3120,41,Aquagym,Municipalidad,352718.47,No,False,M,455434.95,Visceral
+3121,23,Natación,Independiente,365864.09,SI,False,F,476808.45,Visceral
+3122,19,Rehabilitación,Educación,280028.48,No,False,Masculino,750985.47,Intelectual
+3123,54,Hidrogimnasia,Independiente,346780.47,no,False,F,391054.16,Motriz
+3124,45,Aquagym,Educación,371687.39,no,True,No Binario,515932.53,Motriz
+3125,28,Hidrogimnasia,Municipalidad,420511.17,no,False,F,568845.46,Motriz
+3126,60,Natación,Educación,399335.44,Tiene CUD,True,F,632680.57,Motriz
+3127,53,Aquagym,Educación,390444.74,Tiene CUD,True,M,482781.16,Motriz
+3128,28,Rehabilitación,Municipalidad,255185.9,Tiene CUD,False,No Binario,556838.22,Motriz
+3129,42,Natación,Educación,408097.26,Tiene CUD,True,Masculino,534720.19,Sensorial
+3130,44,Aquagym,Educación,330961.58,Si,False,F,428947.06,Motriz
+3131,64,Rehabilitación,Privado,312211.14,no,True,Femenino,485166.45,Motriz
+3132,8,Natación,Educación,494388.73,SI,True,M,466901.51,Motriz
+3133,68,Hidrogimnasia,Municipalidad,273741.08,Tiene CUD,True,F,430667.53,Sensorial
+3134,6,Natación,Independiente,235642.85,No,False,M,460964.77,Ninguna
+3135,22,Aquagym,Independiente,356580.13,Tiene CUD,True,Masculino,174840.18,Visceral
+3136,50,Hidrogimnasia,Educación,443542.65,SI,True,F,637924.65,Motriz
+3137,50,Natación,Privado,273326.76,SI,True,M,439540.55,Intelectual
+3138,67,Rehabilitación,Municipalidad,353250.19,No,False,Masculino,410597.11,Ninguna
+3139,57,Natación,Educación,405377.44,no,False,Masculino,514616.65,Motriz
+3140,65,Rehabilitación,Municipalidad,441562.93,No,True,Femenino,383411.78,Intelectual
+3141,21,Hidrogimnasia,Educación,243875.01,Tiene CUD,False,F,540260.2,Ninguna
+3142,8,Natación,Privado,384460.26,Tiene CUD,False,Masculino,376056.49,Visceral
+3143,34,Hidrogimnasia,Educación,365838.59,no,True,Femenino,594255.04,Intelectual
+3144,53,Hidrogimnasia,Independiente,301411.31,Si,False,M,592432.03,Ninguna
+3145,8,Aquagym,Privado,264283.74,No,True,F,453119.26,Ninguna
+3146,74,Hidrogimnasia,Independiente,334425.6,no,True,No Binario,431000.07,Intelectual
+3147,34,Hidrogimnasia,Municipalidad,455682.38,Si,True,F,360772.94,Visceral
+3148,23,Rehabilitación,Privado,405880.3,No,True,F,362778.53,Sensorial
+3149,23,Rehabilitación,Privado,455759.22,Tiene CUD,True,F,471228.07,Visceral
+3150,56,Rehabilitación,Privado,384029.58,no,True,M,209582.91,Sensorial
+3151,58,Natación,Privado,536977.37,No,False,Femenino,528565.21,Ninguna
+3152,39,Rehabilitación,Municipalidad,282598.16,No,True,Masculino,582811.93,Sensorial
+3153,60,Hidrogimnasia,Privado,479289.07,No,False,No Binario,470048.37,Sensorial
+3154,39,Aquagym,Municipalidad,289481.7,No,False,No Binario,484270.02,Motriz
+3155,27,Hidrogimnasia,Educación,377679.72,Tiene CUD,False,No Binario,421075.1,Ninguna
+3156,64,Aquagym,Municipalidad,398815.65,SI,False,No Binario,234017.56,Intelectual
+3157,60,Aquagym,Privado,395417.89,no,True,Femenino,585265.54,Visceral
+3158,19,Rehabilitación,Municipalidad,203361.58,No,False,No Binario,350051.0,Visceral
+3159,65,Rehabilitación,Privado,468931.93,no,True,Femenino,300788.37,Motriz
+3160,70,Rehabilitación,Municipalidad,357496.12,No,False,Femenino,542424.32,Intelectual
+3161,23,Aquagym,Independiente,468308.68,Tiene CUD,False,Femenino,370755.41,Ninguna
+3162,17,Aquagym,Municipalidad,342398.7,No,True,Masculino,392338.38,Intelectual
+3163,52,Hidrogimnasia,Municipalidad,440743.57,SI,True,No Binario,450654.44,Ninguna
+3164,71,Aquagym,Independiente,253774.95,Tiene CUD,True,F,443156.23,Sensorial
+3165,60,Natación,Municipalidad,502438.69,no,True,Femenino,467375.91,Motriz
+3166,29,Rehabilitación,Educación,421204.62,no,True,Femenino,541037.19,Visceral
+3167,68,Hidrogimnasia,Privado,251080.02,no,False,Masculino,525496.02,Ninguna
+3168,37,Rehabilitación,Municipalidad,394999.05,SI,True,No Binario,353822.04,Visceral
+3169,68,Hidrogimnasia,Privado,439938.02,SI,True,Femenino,345904.24,Ninguna
+3170,11,Rehabilitación,Privado,485544.08,Tiene CUD,False,F,340165.3,Ninguna
+3171,21,Natación,Independiente,399019.2,Si,True,Masculino,221231.75,Ninguna
+3172,39,Hidrogimnasia,Educación,361229.94,SI,False,F,389254.71,Motriz
+3173,52,Natación,Independiente,303954.15,No,False,F,296075.61,Visceral
+3174,6,Rehabilitación,Privado,458908.0,Si,True,F,465358.96,Visceral
+3175,21,Natación,Municipalidad,194785.56,Si,True,M,404847.55,Sensorial
+3176,50,Natación,Privado,443101.81,SI,True,Femenino,582005.58,Visceral
+3177,16,Hidrogimnasia,Municipalidad,281929.91,Tiene CUD,True,Femenino,421570.9,Intelectual
+3178,56,Rehabilitación,Independiente,354545.52,No,True,F,458628.93,Visceral
+3179,69,Aquagym,Educación,294652.64,No,False,M,409610.11,Intelectual
+3180,9,Rehabilitación,Municipalidad,362266.22,SI,True,F,261784.36,Motriz
+3181,53,Rehabilitación,Municipalidad,475614.41,Si,True,Femenino,344833.24,Visceral
+3182,31,Natación,Municipalidad,473395.66,No,False,Masculino,330977.63,Motriz
+3183,53,Natación,Municipalidad,452225.28,SI,True,F,424292.72,Intelectual
+3184,7,Rehabilitación,Independiente,384991.77,Si,False,F,419179.28,Sensorial
+3185,5,Hidrogimnasia,Municipalidad,252513.3,Tiene CUD,False,F,556489.41,Sensorial
+3186,15,Aquagym,Educación,307867.18,no,True,M,367433.97,Visceral
+3187,15,Rehabilitación,Municipalidad,341736.04,No,False,Masculino,350630.71,Motriz
+3188,36,Rehabilitación,Municipalidad,348045.07,No,True,Femenino,483317.08,Intelectual
+3189,46,Rehabilitación,Educación,445756.53,SI,False,Femenino,266446.24,Intelectual
+3190,65,Natación,Independiente,329511.34,Tiene CUD,True,Femenino,683949.47,Ninguna
+3191,54,Aquagym,Independiente,360378.32,SI,False,Masculino,637450.7,Visceral
+3192,61,Hidrogimnasia,Municipalidad,338513.23,No,True,F,567464.95,Intelectual
+3193,51,Natación,Independiente,464153.86,Si,False,No Binario,312137.91,Visceral
+3194,71,Rehabilitación,Privado,290907.52,SI,False,Masculino,505644.84,Sensorial
+3195,50,Natación,Independiente,416507.01,no,False,No Binario,457106.18,Intelectual
+3196,32,Hidrogimnasia,Independiente,240404.27,No,False,Masculino,265737.23,Intelectual
+3197,21,Rehabilitación,Municipalidad,341736.14,Tiene CUD,True,Masculino,530677.33,Motriz
+3198,30,Aquagym,Municipalidad,474908.63,no,False,Femenino,369960.63,Sensorial
+3199,12,Hidrogimnasia,Educación,282477.82,No,False,F,355001.28,Ninguna
+3200,68,Natación,Educación,216964.75,no,False,No Binario,425224.91,Intelectual
+3201,11,Natación,Municipalidad,368904.65,Si,False,F,553082.69,Sensorial
+3202,24,Rehabilitación,Municipalidad,406063.75,No,False,Femenino,489588.43,Intelectual
+3203,22,Natación,Municipalidad,515809.64,Tiene CUD,True,Masculino,576885.23,Motriz
+3204,19,Rehabilitación,Educación,472665.68,Si,True,M,196327.71,Ninguna
+3205,48,Natación,Educación,268773.41,No,True,No Binario,391098.86,Sensorial
+3206,22,Natación,Privado,445929.16,Si,True,F,432647.37,Intelectual
+3207,15,Hidrogimnasia,Privado,198239.2,no,False,M,361830.55,Visceral
+3208,25,Aquagym,Educación,343719.63,No,False,M,397030.87,Sensorial
+3209,34,Natación,Educación,221314.94,No,False,No Binario,307705.04,Visceral
+3210,19,Natación,Independiente,322474.01,SI,False,No Binario,603768.14,Intelectual
+3211,51,Aquagym,Educación,313297.84,no,True,Femenino,534943.2,Sensorial
+3212,17,Hidrogimnasia,Independiente,196917.78,Si,False,No Binario,529754.51,Intelectual
+3213,6,Natación,Independiente,313432.72,SI,False,M,330156.76,Intelectual
+3214,32,Natación,Municipalidad,246618.57,no,True,M,442764.05,Sensorial
+3215,31,Natación,Privado,415226.32,No,False,Femenino,439106.0,Intelectual
+3216,29,Hidrogimnasia,Educación,343523.77,SI,True,F,292025.09,Intelectual
+3217,31,Aquagym,Independiente,383079.77,SI,True,Masculino,422501.98,Visceral
+3218,47,Aquagym,Educación,301121.36,Si,True,Femenino,353891.13,Motriz
+3219,25,Natación,Privado,344345.4,Si,False,No Binario,330607.55,Visceral
+3220,26,Aquagym,Privado,328212.41,Si,False,M,345631.48,Ninguna
+3221,19,Natación,Independiente,337828.51,no,True,Femenino,381895.62,Visceral
+3222,40,Rehabilitación,Privado,337097.22,No,False,M,515536.44,Ninguna
+3223,56,Natación,Municipalidad,270464.33,No,False,Femenino,609373.79,Intelectual
+3224,67,Rehabilitación,Independiente,328821.36,Si,True,M,490700.35,Visceral
+3225,50,Natación,Educación,281519.39,Si,False,No Binario,816536.19,Visceral
+3226,22,Natación,Municipalidad,332328.93,Tiene CUD,True,F,294384.7,Motriz
+3227,19,Rehabilitación,Independiente,474008.82,SI,True,Femenino,340169.43,Intelectual
+3228,11,Hidrogimnasia,Educación,356713.42,Si,True,F,500245.59,Sensorial
+3229,18,Aquagym,Educación,180821.56,No,True,F,618028.43,Intelectual
+3230,46,Rehabilitación,Privado,175812.59,no,False,M,245378.72,Sensorial
+3231,7,Rehabilitación,Municipalidad,385595.1,No,True,No Binario,524336.56,Visceral
+3232,63,Rehabilitación,Privado,478437.78,SI,True,Femenino,343565.47,Ninguna
+3233,64,Natación,Privado,267702.48,No,True,F,419467.33,Ninguna
+3234,71,Aquagym,Independiente,242700.28,Si,False,M,380747.87,Visceral
+3235,62,Aquagym,Educación,544649.71,No,True,Masculino,390233.3,Ninguna
+3236,47,Aquagym,Privado,284556.8,no,True,No Binario,325194.23,Ninguna
+3237,41,Aquagym,Educación,310871.89,No,False,Femenino,732409.81,Motriz
+3238,5,Natación,Municipalidad,544026.46,SI,False,No Binario,460905.65,Ninguna
+3239,30,Natación,Independiente,318065.67,Tiene CUD,True,Femenino,386343.68,Intelectual
+3240,69,Hidrogimnasia,Privado,378150.1,Tiene CUD,False,F,79143.48,Visceral
+3241,52,Hidrogimnasia,Privado,441654.77,SI,True,Femenino,551301.9,Visceral
+3242,42,Aquagym,Privado,359389.52,SI,False,M,487280.58,Visceral
+3243,63,Aquagym,Municipalidad,355683.98,Tiene CUD,True,F,232902.95,Motriz
+3244,27,Hidrogimnasia,Municipalidad,296155.02,No,True,No Binario,387667.35,Intelectual
+3245,73,Rehabilitación,Independiente,281432.79,Tiene CUD,False,No Binario,429197.83,Sensorial
+3246,45,Hidrogimnasia,Privado,309307.07,No,True,M,524569.81,Intelectual
+3247,39,Aquagym,Privado,340713.18,Si,True,Femenino,179554.34,Sensorial
+3248,50,Hidrogimnasia,Independiente,420574.27,No,True,Femenino,420916.37,Ninguna
+3249,49,Aquagym,Independiente,395467.45,no,False,Femenino,460655.07,Intelectual
+3250,9,Rehabilitación,Educación,178759.86,no,False,Femenino,230731.05,Visceral
+3081,52,Rehabilitación,Privado,252651.86,Tiene CUD,False,F,554943.15,Motriz
+3082,68,Hidrogimnasia,Educación,587006.12,Tiene CUD,True,F,392811.81,Visceral
+3083,66,Hidrogimnasia,Educación,464283.71,no,True,Masculino,770520.96,Motriz
+3084,56,Aquagym,Independiente,235153.45,SI,False,No Binario,305797.22,Sensorial
+3085,5,Natación,Educación,400790.76,Tiene CUD,True,No Binario,509205.35,Sensorial
+3086,39,Hidrogimnasia,Privado,347180.7,Tiene CUD,False,F,431325.25,Intelectual
+3087,71,Hidrogimnasia,Privado,424411.25,SI,True,F,530469.14,Ninguna
+3088,28,Natación,Municipalidad,280160.49,no,True,F,392880.16,Ninguna
