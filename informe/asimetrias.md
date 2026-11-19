@@ -43,11 +43,11 @@ a **+0,178**. Es decir, `ganancias_sector` es casi simétrica y todo el
 | Variable | n | Media | Mediana | Desvío | Asimetría |
 |---|---:|---:|---:|---:|---:|
 | `salario` | 250 | 441.748,05 | 439.540,55 | 116.192,20 | +0,181 |
-| `ganancias_sector` | 250 | 357.354,81 | 353.740,98 | 89.796,28 | +0,148 |
+| `ganancias_sector` | 250 | 356.280,97 | 353.658,78 | 88.393,34 | +0,102 |
 
 Tras imputar los valores nulos e inválidos con la mediana de su grupo, ambas
 variables quedan con asimetría leve y positiva, coherente con ingresos: la
-media apenas supera a la mediana (0,50% en salario y 1,02% en ganancias) y los
+media apenas supera a la mediana (0,50% en salario y 0,74% en ganancias) y los
 desvíos son del orden del 25% de la media, sin distorsiones.
 
 ## Conclusión

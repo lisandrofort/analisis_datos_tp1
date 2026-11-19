@@ -21,6 +21,13 @@ print("2- FILAS DUPLICADAS")
 print("Cantidad de duplicados:", df.duplicated().sum())
 print(df[df.duplicated(keep='first')])
 
+print("3- VALOR RARO EN GANANCIAS_SECTOR")
+# Casi todos estan entre 135.000 y 600.000. Hay uno de 15.000.000:
+# Lo mostramos y comparamos
+# con la mediana para justificar por que despues lo vamos a corregir.
+print("Mediana:", df["ganancias_sector"].median(), "| Maximo:", df["ganancias_sector"].max())
+print(df[df["ganancias_sector"] > 1000000][["id_participante", "ganancias_sector"]])
+
 # LIMPIEZA
 # hacemos una copia del df original para no modificarlo
 print("LIMPIEZA DE DATOS")
@@ -39,6 +46,17 @@ arr_final["salario"] = arr_final["salario"].fillna(0)
 arr_final["sectores"] = arr_final["sectores"].fillna("Sin dato")
 arr_final["tipo_discapacidad"] = arr_final["tipo_discapacidad"].fillna("Sin dato")
 
+# 3) rango intercuartilico:
+#    todo lo que pase de Q3 + 1.5*IQR se reemplaza por la mediana.
+#    La mediana es el valor del medio y no se deforma con el 15.000.000.
+Q1 = arr_final["ganancias_sector"].quantile(0.25)
+Q3 = arr_final["ganancias_sector"].quantile(0.75)
+IQR = Q3 - Q1
+limite = Q3 + 1.5 * IQR
+es_raro = arr_final["ganancias_sector"] > limite
+print("Atipicos corregidos en ganancias:", es_raro.sum())
+arr_final.loc[es_raro, "ganancias_sector"] = arr_final["ganancias_sector"].median()
+
 print("NAN restantes:")
 print(arr_final.isna().sum())
 print("Dimensiones del arreglo limpio:", arr_final.shape)
@@ -54,3 +72,7 @@ arr_final["es_adulto"] = arr_final["edad"] >= 18
 resumen = arr_final.groupby("actividades")["salario"].agg(["count", "median"])
 print("Resumen por actividad:")
 print(resumen)
+
+# EXPORTAMOS el arreglo limpio a CSV (se guarda en esta carpeta)
+arr_final.to_csv("proyecto_3_todos_al_agua_limpio_fase1.csv", index=False)
+print("CSV limpio exportado: proyecto_3_todos_al_agua_limpio_fase1.csv")

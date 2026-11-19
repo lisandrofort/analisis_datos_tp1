@@ -7,7 +7,7 @@ imputados).
 ## ¿Qué está pasando en el negocio?
 
 La operación es estable en su centro: la mediana salarial es **439.541** y la
-de ganancias por sector **353.741**, con participantes de 5 a 74 años y cuatro
+de ganancias por sector **353.659**, con participantes de 5 a 74 años y cuatro
 actividades bien distribuidas (Natación 69, Rehabilitación 63, Hidrogimnasia
 62 y Aquagym 56 registros ya deduplicados).
 

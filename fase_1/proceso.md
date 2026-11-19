@@ -40,6 +40,9 @@ El CSV crudo es único y vive en la raíz.
 - **8 filas duplicadas exactas**: los IDs 3081 a 3088 aparecen dos veces (el
   generador los agrega al final de la lista). Se quitan con `drop_duplicates()`,
   quedando 250 participantes.
+- **1 valor raro en `ganancias_sector`**: el participante 3089 tiene
+  **15.000.000**, mientras la mediana es 353.741 y el resto está entre 135.000 y
+  600.000. Es casi 40 veces el valor típico, probablemente un error de carga.
 
 ## Limpieza aplicada
 
@@ -51,11 +54,17 @@ Tal como está en `fase_1.py`:
   se rellena antes pueden borrarse filas reales.
 - `salario` (numérica) → `0`.
 - `sectores` y `tipo_discapacidad` (texto) → `"Sin dato"`.
-- Resultado: **250 filas, 10 columnas, 0 nulos**.
+- **Atípicos de ganancias**: con la regla del profe (`Q3 + 1.5 * IQR`) se
+  detectan 2 valores arriba del límite y se reemplazan por la **mediana**, que
+  es el valor del medio y no se deforma con el 15.000.000. Se conservan las filas.
+- Resultado: **250 filas, 11 columnas, 0 nulos**.
 - Al final se agregaron dos cosas simples para completar la Fase 2:
   - **Variable derivada**: `es_adulto`, que es `edad >= 18` (da `True` o `False`).
   - **Agrupamiento**: `groupby("actividades")["salario"].agg(["count", "median"])`,
     que muestra cuántos participantes hay y el salario mediano de cada actividad.
+  - **Exportación**: `arr_final.to_csv("proyecto_3_todos_al_agua_limpio_fase1.csv", index=False)`.
+    Se guarda en esta carpeta. Se llama distinto al CSV del notebook para no
+    reemplazarlo (el del notebook tiene la imputación con mediana que usa el informe).
 
 ## Trabajo posterior (en el notebook)
 
@@ -66,6 +75,8 @@ mediana por actividad (en vez de 0), marca los dos errores de carga
 `fase_1/proyecto_3_todos_al_agua_limpio.csv`, que es el dataset que usan el
 análisis de asimetrías, las conclusiones y los gráficos limpios.
 
-> Nota de coordinación: los scripts de `fase_2` todavía reconstruyen el dataset
-> crudo por su cuenta. Si pasan a leer el CSV limpio, sus gráficos dejarán de
-> incluir duplicados y el valor de 15.000.000.
+> Nota de coordinación: los scripts de `fase_2` leen
+> `../fase_1/proyecto_3_todos_al_agua_limpio_fase1.csv`, que ya no tiene
+> duplicados ni el 15.000.000. Todavía conserva los salarios en 0; por eso el
+> informe y el notebook usan la versión corregida
+> (`proyecto_3_todos_al_agua_limpio.csv`).
