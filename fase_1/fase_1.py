@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 # Análisis estructural: dimensiones, tipos de datos y detección inicial de anomalías
-# Carga Archivo de datos
-df = pd.read_csv("proyecto_3_todos_al_agua_crudo.csv")
+# Carga Archivo de datos: ".." sube una carpeta, donde esta el CSV crudo
+df = pd.read_csv("../proyecto_3_todos_al_agua_crudo.csv")
 
 # Analisis estructural general del data frame
 df.info()
@@ -44,3 +44,13 @@ print(arr_final.isna().sum())
 print("Dimensiones del arreglo limpio:", arr_final.shape)
 # el df original queda intacto
 print("Dimensiones del original:", df.shape)
+
+# VARIABLE DERIVADA: marcamos si el participante es adulto o no.
+# Es solo una comparacion: si la edad es 18 o mas da True, si no da False.
+arr_final["es_adulto"] = arr_final["edad"] >= 18
+
+# AGRUPAMIENTO: contamos participantes y sacamos el salario mediano
+# de cada actividad. agg() permite pedir varias cuentas a la vez.
+resumen = arr_final.groupby("actividades")["salario"].agg(["count", "median"])
+print("Resumen por actividad:")
+print(resumen)
